@@ -1,6 +1,6 @@
 import { UilFacebook, UilGithub, UilInstagram } from "@iconscout/react-unicons";
 import Image from "next/image";
-import Logo from "../assets/Cherry.png";
+import Logo from "../assets/logo.jpg";
 
 import css from "../styles/Footer.module.css";
 export default function Footer() {
@@ -15,7 +15,7 @@ export default function Footer() {
         </div>
         <div className={css.logo}>
           <Image src={Logo} alt="" width={50} height={50} />
-          <span>Fudo</span>
+          <span>Lady S - Accessories</span>
         </div>
       </div>
     </div>

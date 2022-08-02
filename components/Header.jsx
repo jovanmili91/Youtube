@@ -1,6 +1,6 @@
 import css from "../styles/Header.module.css";
 import Image from "next/image";
-import Logo from "../assets/Cherry.png";
+import Logo from "../assets/logo.jpg";
 import { UilShoppingBag, UilReceipt } from "@iconscout/react-unicons";
 import { useStore } from "../store/store";
 import Link from "next/link";
