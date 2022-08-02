@@ -72,17 +72,17 @@
     font-size: 1rem;
   }
   .menu {
-    flex-wrap: wrap;
-    row-gap: 1rem;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.5rem;
   }
   .pizza {
     gap: 0rem;
     font-size: 1rem;
   }
   .ImageWrapper {
-    height: 10rem;
-    width: 10rem;
+    object-fit: cover;
+    width: 100%;
     border-radius: 1rem;
   }
 }

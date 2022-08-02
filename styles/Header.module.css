@@ -75,6 +75,13 @@
     background-color: var(--themeRed);
     padding: 2rem;
     color: white;
+    box-shadow: var(--shadow);
+    border-radius: 1rem;
+    opacity: 90%;
+  }
+
+  .menu > li {
+    /* outline: auto; */
   }
 
   .bars {
