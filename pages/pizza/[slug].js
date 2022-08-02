@@ -7,7 +7,11 @@ import RightArrow from "../../assets/arrowRight.png";
 import { useState } from "react";
 import { useStore } from "../../store/store";
 import toast, { Toaster } from "react-hot-toast";
+import { useRouter } from "next/router";
+
 export default function Pizza({ pizza }) {
+  const router = useRouter();
+
   const src = urlFor(pizza.image).url();
 
   const [Quantity, setQuantity] = useState(1);
@@ -49,6 +53,7 @@ export default function Pizza({ pizza }) {
             objectFit="cover"
           />
         </div>
+
         {/* right side */}
         <div className={css.right}>
           <span>{pizza.name}</span>
@@ -110,6 +115,9 @@ export default function Pizza({ pizza }) {
           {/* button */}
           <div className={`btn ${css.btn}`} onClick={addToCart}>
             Add to Cart
+          </div>
+          <div className={`btn ${css.btn}`} onClick={() => router.back()}>
+            Back
           </div>
         </div>
         <Toaster />

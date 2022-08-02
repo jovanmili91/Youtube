@@ -1,9 +1,9 @@
 import Image from "next/image";
 import css from "../styles/Hero.module.css";
-import Cherry from "../assets/Cherry.png";
-import HeroImage from "../assets/HeroImage.png";
+import Cherry from "../assets/sunglasses2.png";
+import HeroImage from "../assets/HeroImage1.png";
 import { UilPhone } from "@iconscout/react-unicons";
-import Pizza1 from "../assets/p1.jpg";
+import Pizza1 from "../assets/smSunglasses.jpg";
 import Link from "next/link";
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
       <div className={css.left}>
         <div className={css.cherryDiv}>
           <span>More Than Faster</span>
-          <Image src={Cherry} alt="" width={40} height={25} />
+          <Image src={Cherry} alt="" width={40} height={40} />
         </div>
 
         <div className={css.heroText}>
@@ -53,7 +53,7 @@ export default function Hero() {
           </div>
 
           <div className={css.details}>
-            <span>Italian Pizza</span>
+            <span>Beautiful</span>
             <span>
               <span style={{ color: "var(--themeRed" }}>$</span> 7.49
             </span>

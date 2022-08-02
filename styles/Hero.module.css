@@ -18,7 +18,8 @@
   margin-top: 3rem;
   padding: 1rem;
   border-radius: 2rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  gap: 2rem;
   color: var(--themeRed);
   font-weight: bold;
 }
@@ -46,10 +47,9 @@
 }
 
 .imageContainer {
-  width: 38rem;
+  width: 35rem;
   position: absolute;
-  left: -5rem;
-  top: -5rem;
+  left: -8rem;
 }
 
 .ContactUs {
@@ -60,8 +60,8 @@
   width: max-content;
   padding: 1rem;
   border-radius: 5rem;
-  top: 6rem;
-  left: -5rem;
+  top: 10rem;
+  left: -7rem;
   gap: 1rem;
   background-color: white;
   box-shadow: var(--shadow);
@@ -92,7 +92,7 @@
   border-radius: 0.5rem;
   position: absolute;
   bottom: 4rem;
-  left: 19rem;
+  left: 10rem;
   width: max-content;
 }
 
@@ -121,7 +121,17 @@
   }
   .cherryDiv {
     margin-top: 0rem;
+    font-size: 0.8rem;
   }
+  .cherryDiv {
+    margin-top: 0rem;
+    font-size: 0.8rem;
+  }
+
+  .cherryDiv > span > img {
+    opacity: 0;
+  }
+
   .heroText {
     margin-top: 2rem;
     font-size: 0.9rem;
@@ -136,13 +146,13 @@
     position: absolute;
     width: 20rem;
     left: -15rem;
-    top: -2rem;
+    top: 2rem;
   }
 
   .ContactUs {
     transform: scale(0.7);
-    top: 3rem;
-    left: -15rem;
+    top: 5rem;
+    left: -16rem;
   }
   .ContactUs:hover {
     transform: scale(0.8);
@@ -151,9 +161,13 @@
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
   }
-  /* .Pizza {
+  .Pizza {
     transform: scale(0.7);
-    bottom: -1rem;
+    bottom: 0rem;
     left: -10rem;
-  } */
+  }
+  .Pizza:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+  }
 }
