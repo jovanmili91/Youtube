@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  padding: 2rem;
+  gap: 5rem;
+  margin-top: 3rem;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 40%;
+  height: 25rem;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+.imageWrapper > span > img:hvoer {
+  transform: scale(1.1);
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.2rem;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.right > :nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: var(--gray);
+}
+
+.size {
+  display: flex;
+  gap: 3rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.sizeVariants {
+  display: flex;
+  gap: 0.6rem;
+  font-weight: normal;
+  color: var(--themeRed);
+  font-size: 0.8rem;
+}
+.sizeVariants > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem 1.5rem;
+  border: 2px solid var(--themeRed);
+  border-radius: 2rem;
+}
+
+.sizeVariants > div:hover {
+  background-color: var(--themeRed);
+  color: white;
+  cursor: pointer;
+}
+
+.quantity {
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  gap: 3rem;
+}
+
+.counter {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: normal;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.selected {
+  background-color: var(--themeRed);
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 0.5rem;
+    gap: 1rem;
+    margin-top: 0rem;
+  }
+  .imageWrapper {
+    position: relative;
+    align-self: center;
+    width: 90%;
+    height: 25rem;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+
+  .right {
+    align-self: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  .size {
+    gap: 1rem;
+    font-size: 1.1rem;
+    margin: 0.5rem;
+  }
+  .quantity {
+    font-size: 1rem;
+    font-weight: 600;
+    gap: 3rem;
+    margin: 1rem;
+  }
+}
