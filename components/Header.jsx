@@ -14,6 +14,10 @@ export default function Header() {
 
   const mobile = width <= 768 ? true : false;
 
+  const handleToggle = () => {
+    setmenuOpened(!menuOpened);
+  };
+
   useEffect(() => {
     setOrder(localStorage.getItem("order"));
     setWidth(window.innerWidth);
@@ -62,7 +66,7 @@ export default function Header() {
             </div>
           </Link>
         )}
-        <div className={css.bars} onClick={() => setmenuOpened(true)}>
+        <div className={css.bars} onClick={handleToggle}>
           <FaBars />
         </div>
       </div>
