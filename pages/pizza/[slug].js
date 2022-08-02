@@ -42,6 +42,7 @@ export default function Pizza({ pizza }) {
           <Image
             loader={() => src}
             src={src}
+            priority
             alt=""
             layout="fill"
             unoptimized
