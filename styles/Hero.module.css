@@ -151,8 +151,8 @@
 
   .ContactUs {
     transform: scale(0.7);
-    top: 5rem;
-    left: -16rem;
+    top: 3.5rem;
+    left: -21rem;
   }
   .ContactUs:hover {
     transform: scale(0.8);
