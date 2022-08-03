@@ -6,9 +6,9 @@ export default function Menu({ pizzas }) {
   return (
     <div className={css.container}>
       <div className={css.heading}>
-        <span id="menu">OUR MENU</span>
-        <span>Menu That Always</span>
-        <span>Make you Fall in Love</span>
+        <span id="menu">NAOČARE ZA SUNCE</span>
+        <span>Naočare koje</span>
+        <span>Vas nateraju da se Zaljubite</span>
       </div>
 
       <div className={css.menu}>

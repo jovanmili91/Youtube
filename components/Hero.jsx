@@ -5,31 +5,36 @@ import HeroImage from "../assets/HeroImage1.png";
 import { UilPhone } from "@iconscout/react-unicons";
 import Pizza1 from "../assets/smSunglasses.jpg";
 import Link from "next/link";
+
 export default function Hero() {
   return (
     <div className={css.container}>
       {/* left side */}
       <div className={css.left}>
         <div className={css.cherryDiv}>
-          <span>More Than Faster</span>
+          <span>luxury accessories</span>
           <Image src={Cherry} alt="" width={40} height={40} />
         </div>
 
         <div className={css.heroText}>
-          <span>Be The Fastest</span>
-          <span>In Delivering</span>
+          <span>Najbrza Dostava</span>
+          <span>Savršen Kvalitet</span>
           <span>
-            Your <span style={{ color: "var(--themeRed)" }}>Accessories</span>
+            LadyS <span style={{ color: "var(--themeRed)" }}>Accessories</span>
           </span>
         </div>
 
         <span className={css.miniText}>
-          Our Mission is to filling your wishes with amazing products with and
-          free delivery
+          Vaš omiljn <span style={{ color: "var(--themeRed)" }}>LadzS </span>
+          Accessories za svaku priliku -{" "}
+          <span style={{ color: "var(--themeRed)" }}>Brza </span>
+          <span style={{ color: "var(--themeRed)" }}>Sigurna</span> dostava -
+          <span style={{ color: "var(--themeRed)" }}> Garancija</span> na
+          kvalitet
         </span>
 
         <Link href="#menu">
-          <button className={`btn ${css.btn}`}>Get Started</button>
+          <button className={`btn ${css.btn}`}>NAOČARE</button>
         </Link>
       </div>
 
@@ -41,7 +46,7 @@ export default function Hero() {
         </div>
 
         <div className={css.ContactUs}>
-          <span>Contact us</span>
+          <span>Kontaktirajte Nas</span>
           <div>
             <UilPhone color="white" />
           </div>
@@ -53,7 +58,7 @@ export default function Hero() {
           </div>
 
           <div className={css.details}>
-            <span>Beautiful</span>
+            <span>Luxury Sunglasses</span>
             <span>
               <span style={{ color: "var(--themeRed" }}>$</span> 7.49
             </span>

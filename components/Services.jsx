@@ -8,9 +8,9 @@ export default function Services() {
   return (
     <>
       <div className={css.heading}>
-        <span>WHAT WE SERVE</span>
-        <span>Your Favourite Food</span>
-        <span>Delivery Partner</span>
+        <span>Po čemu smo posebni</span>
+        <span>Brzina od kupivine do Vaše adrese</span>
+        <span>Garancija na Kvalitet</span>
       </div>
 
       {/* features */}
@@ -20,8 +20,8 @@ export default function Services() {
             <Image src={s1} alt="" objectFit="cover" layout="intrinsic" />
           </div>
 
-          <span>Easy to Order</span>
-          <span>You only need a few steps in food ordering</span>
+          <span>Laka Porudžbina</span>
+          <span>Potrebno je samo nekoliko koraka</span>
         </div>
 
         <div className={css.feature}>
@@ -29,16 +29,16 @@ export default function Services() {
             <Image src={s2} alt="" objectFit="cover" layout="intrinsic" />
           </div>
 
-          <span>Easy to Order</span>
-          <span>Delivery that is alwas on time even faster</span>
+          <span>Dostava</span>
+          <span>Pošiljka je uvek na vreme ČAK i brže</span>
         </div>
         <div className={css.feature}>
           <div className={css.ImageWrapper}>
             <Image src={s3} alt="" objectFit="cover" layout="intrinsic" />
           </div>
 
-          <span>Easy to Order</span>
-          <span>Not only fast for us, quality is also numer one</span>
+          <span>Sigurnost i kvalitet</span>
+          <span>Ne samo brzina, Kvalitet je na prvom mestu</span>
         </div>
       </div>
     </>
