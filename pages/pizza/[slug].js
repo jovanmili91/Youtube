@@ -64,7 +64,7 @@ export default function Pizza({ pizza }) {
             {pizza.price[Size]}
           </span>
           <div className={css.size}>
-            <span>Size</span>
+            <span>Veličina</span>
             <div className={css.sizeVariants}>
               <div
                 onClick={() => setSize(0)}
@@ -89,7 +89,7 @@ export default function Pizza({ pizza }) {
 
           {/* Quantity coutner */}
           <div className={css.quantity}>
-            <span>Quantity</span>
+            <span>Količina</span>
             <div className={css.counter}>
               <Image
                 src={LeftArrow}
@@ -114,10 +114,10 @@ export default function Pizza({ pizza }) {
 
           {/* button */}
           <div className={`btn ${css.btn}`} onClick={addToCart}>
-            Add to Cart
+            Dodaj u Korpicu
           </div>
           <div className={`btn ${css.btn}`} onClick={() => router.back()}>
-            Back
+            Nazad
           </div>
         </div>
         <Toaster />

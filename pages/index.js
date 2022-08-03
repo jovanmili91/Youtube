@@ -5,6 +5,7 @@ import Services from "../components/Services";
 import css from "../styles/Home.module.css";
 import { client } from "../lib/client";
 import Menu from "../components/Menu";
+
 export default function Home({ pizzas }) {
   return (
     <Layout>

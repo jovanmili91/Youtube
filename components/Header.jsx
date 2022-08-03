@@ -44,7 +44,7 @@ export default function Header() {
             <Link href="../">Home</Link>
           </li>
           <li onClick={() => setmenuOpened(false)}>
-            <Link href="#menu">Menu</Link>
+            <Link href="../ponuda">Menu</Link>
           </li>
           <li onClick={() => setmenuOpened(false)}>Contact</li>
         </ul>
