@@ -26,11 +26,15 @@
   gap: 2rem;
   justify-content: center;
   z-index: 99;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
 
 .menu > li:hover {
   cursor: pointer;
   color: var(--themeRed);
+  transform: scale(1.1);
 }
 
 .rightSide {
@@ -45,6 +49,10 @@
   display: flex;
   cursor: pointer;
   z-index: 99;
+}
+
+.cart:hover {
+  transform: scale(1.1);
 }
 
 .badge {

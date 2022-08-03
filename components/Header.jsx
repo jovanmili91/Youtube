@@ -41,12 +41,12 @@ export default function Header() {
       ) : (
         <ul className={css.menu}>
           <li onClick={() => setmenuOpened(false)}>
-            <Link href="../">Home</Link>
+            <Link href="../">Početna</Link>
           </li>
           <li onClick={() => setmenuOpened(false)}>
-            <Link href="../ponuda">Menu</Link>
+            <Link href="../ponuda">Naočare</Link>
           </li>
-          <li onClick={() => setmenuOpened(false)}>Contact</li>
+          <li onClick={() => setmenuOpened(false)}>Zvrcni Nas</li>
         </ul>
       )}
 

@@ -32,9 +32,9 @@ export default function Cart() {
       {CartData.pizzas.length < 1 && (
         <div className={css.cart}>
           <AiOutlineShopping size={150} />
-          <h3>Your shopping bag is empty</h3>
+          <h3>Vaša korpica je prazna</h3>
           <Link href="/">
-            <button className="btn">Continue Shopping</button>
+            <button className="btn"> Nastavi Kupovinu</button>
           </Link>
         </div>
       )}
@@ -44,12 +44,12 @@ export default function Cart() {
           <div className={css.details}>
             <table className={css.table}>
               <thead>
-                <th>Pizza</th>
-                <th>Name</th>
-                <th>Size</th>
-                <th>Price</th>
-                <th>Quantity</th>
-                <th>Total</th>
+                <th>Naočare</th>
+                <th>Ime</th>
+                <th>Veličina</th>
+                <th>Cena</th>
+                <th>Količina</th>
+                <th>Ukupno</th>
                 <th></th>
               </thead>
               <tbody className={css.tbody}>
@@ -100,24 +100,24 @@ export default function Cart() {
 
           {/* summary */}
           <div className={css.cart}>
-            <span>Cart</span>
+            <span>Korpica</span>
             <div className={css.CartDetails}>
               <div>
-                <span>Items</span>
+                <span>Broj u korpi </span>
                 <span>{CartData.pizzas.length}</span>
               </div>
 
               <div>
-                <span>Total</span>
+                <span>UKUPNO</span>
                 <span>${total()}</span>
               </div>
             </div>
 
             <div className={css.buttons}>
               <button className="btn" onClick={handleOnDelivery}>
-                Pay on Delivery
+                Plaćanje Dostavom
               </button>
-              <button className="btn">Pay Now</button>
+              <button className="btn">Plati sada (u izradi)</button>
             </div>
           </div>
         </div>
