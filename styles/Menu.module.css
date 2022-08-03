@@ -62,7 +62,7 @@
 @media screen and (max-width: 768px) {
   .container {
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 6rem;
   }
   .heading > :nth-child(1) {
     font-size: 0.8rem;

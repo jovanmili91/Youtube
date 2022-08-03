@@ -3,13 +3,16 @@ import Image from "next/image";
 import s1 from "../assets/s1.png";
 import s2 from "../assets/s2.png";
 import s3 from "../assets/s3.png";
+import Link from "next/link";
 
 export default function Services() {
   return (
     <>
       <div className={css.heading}>
-        <span>Po čemu smo posebni</span>
-        <span>Brzina od kupivine do Vaše adrese</span>
+        <Link href="../ponuda">
+          <button className={`btn ${css.btn}`}>Celokupna Ponuda</button>
+        </Link>
+        <span>Brzina od Kupivine do Vaše adrese</span>
         <span>Garancija na Kvalitet</span>
       </div>
 

@@ -25,17 +25,9 @@ export default function Hero() {
         </div>
 
         <span className={css.miniText}>
-          Vaš omiljn <span style={{ color: "var(--themeRed)" }}>LadzS </span>
-          Accessories za svaku priliku -{" "}
-          <span style={{ color: "var(--themeRed)" }}>Brza </span>
-          <span style={{ color: "var(--themeRed)" }}>Sigurna</span> dostava -
-          <span style={{ color: "var(--themeRed)" }}> Garancija</span> na
-          kvalitet
+          Vaš omiljni <span style={{ color: "var(--themeRed)" }}>LadyS </span>
+          <span style={{ color: "var(--themeRed)" }}> Sigurna dostava</span>
         </span>
-
-        <Link href="#menu">
-          <button className={`btn ${css.btn}`}>NAOČARE</button>
-        </Link>
       </div>
 
       {/* right side */}

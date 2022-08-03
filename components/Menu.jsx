@@ -6,7 +6,7 @@ export default function Menu({ pizzas }) {
   return (
     <div className={css.container}>
       <div className={css.heading}>
-        <span id="menu">NAOČARE ZA SUNCE</span>
+        <span id="menu">NAJPRODAVANIJI MODELI</span>
         <span>Naočare koje</span>
         <span>Vas nateraju da se Zaljubite</span>
       </div>

@@ -18,8 +18,8 @@ export default function Home({ pizzas }) {
         {/* body */}
         <main>
           <Hero />
-          <Services />
           <Menu pizzas={pizzas} />
+          <Services />
         </main>
       </div>
     </Layout>

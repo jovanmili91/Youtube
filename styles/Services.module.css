@@ -6,16 +6,16 @@
   align-items: center;
 }
 
-.heading > :nth-child(1) {
+.heading > :nth-child(2) {
   color: var(--themeRed);
   font-size: 1rem;
 }
 
-.heading > :nth-child(2) {
+.heading > :nth-child(3) {
   font-size: 2rem;
 }
 
-.heading > :nth-child(3) {
+.heading > :nth-child(4) {
   font-size: 2rem;
 }
 
@@ -49,6 +49,11 @@
   width: 20rem;
   text-align: center;
 }
+.btn {
+  margin: 2rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+}
 
 @media screen and (max-width: 768px) {
   .heading > :nth-child(2) {
@@ -70,5 +75,10 @@
   .ImageWrapper {
     width: 5rem;
     height: 5rem;
+  }
+  .btn {
+    margin: 2rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
   }
 }

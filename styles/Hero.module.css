@@ -135,8 +135,8 @@
   }
 
   .heroText {
-    margin-top: 2rem;
-    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
   }
 
   .miniText {
@@ -147,7 +147,7 @@
   .imageContainer {
     position: absolute;
     width: 20rem;
-    left: -15rem;
+    left: -10rem;
     top: 2rem;
   }
 
