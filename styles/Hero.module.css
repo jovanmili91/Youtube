@@ -1,4 +1,6 @@
 .container {
+  max-width: 1280px;
+  margin: auto;
   display: flex;
   position: relative;
 }
@@ -49,7 +51,7 @@
 .imageContainer {
   width: 35rem;
   position: absolute;
-  left: -8rem;
+  left: 0rem;
 }
 
 .ContactUs {
@@ -153,10 +155,11 @@
     transform: scale(0.7);
     top: 3.5rem;
     left: -21rem;
+    opacity: 0;
   }
-  .ContactUs:hover {
+  /* .ContactUs:hover {
     transform: scale(0.8);
-  }
+  } */
   .btn {
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
@@ -165,9 +168,10 @@
     transform: scale(0.7);
     bottom: 0rem;
     left: -10rem;
+    opacity: 0;
   }
-  .Pizza:hover {
+  /* .Pizza:hover {
     transform: scale(0.8);
     cursor: pointer;
-  }
+  } */
 }
